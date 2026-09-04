@@ -1,0 +1,22 @@
+artifact_path: /Users/akhilendra.singh/Documents/Fraud-Detection/model-building/artifacts/1/models/m-01aac81ee6c946928e17f370f38d1dc6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+mlflow_version: 3.5.1
+model_id: m-01aac81ee6c946928e17f370f38d1dc6
+model_size_bytes: 9203686
+model_uuid: m-01aac81ee6c946928e17f370f38d1dc6
+prompts: null
+run_id: b5d94047725e407eb95c02bab2467c45
+utc_time_created: '2026-09-01 01:10:01.229962'
