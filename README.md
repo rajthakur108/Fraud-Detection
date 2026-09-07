@@ -416,3 +416,5 @@ Integration tests:
 - Automate model retraining based on drift thresholds.
 - Add automated deployment workflow.
 - Deploy using Kubernetes.
+
+![MLflow Monitoring](images/monitoring.png)
