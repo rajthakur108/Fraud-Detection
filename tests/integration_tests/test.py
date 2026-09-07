@@ -1,9 +1,5 @@
 import requests
 
-# url = "http://localhost:9696/health"
-# result = requests.post(url)
-# print(type(result.json()['response_status']))
-
 def test_model_api():
     url = "http://localhost:9696/predict"
     transaction = {'Time': 154309.0,
