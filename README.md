@@ -417,4 +417,4 @@ Integration tests:
 - Add automated deployment workflow.
 - Deploy using Kubernetes.
 
-![MLflow Monitoring](images/Screenshot 2026-09-07 at 4.26.23 PM.png)
+![MLflow Monitoring](images/monitoring1.png)
