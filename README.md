@@ -267,6 +267,10 @@ PostgreSQL
 Grafana Dashboard
 ```
 
+# Monitoring Dashboards
+
+![MLflow Monitoring](images/monitoring1.png)
+![MLflow Monitoring](images/monitoring2.png)
 ---
 
 # Testing
@@ -416,5 +420,3 @@ Integration tests:
 - Automate model retraining based on drift thresholds.
 - Add automated deployment workflow.
 - Deploy using Kubernetes.
-
-![MLflow Monitoring](images/monitoring1.png)

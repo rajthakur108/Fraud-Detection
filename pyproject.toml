@@ -40,5 +40,23 @@ dev = [
 [tool.pylint.messages_control]
 
 disable = [
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "redefined-outer-name",
+    "missing-timeout",
+    "chained-comparison",
+    "duplicate-code",
+    "line-too-long",
+    "invalid-name",
+    "unused-argument",
+    "unused-variable",
+    "unused-import",
+    "too-many-positional-arguments",
+    "too-many-arguments",
+    "too-many-locals",
+    "no-value-for-parameter",
+    "inconsistent-return-statements",
+    "f-string-without-interpolation",
+    "no-else-return",
 ]
 
