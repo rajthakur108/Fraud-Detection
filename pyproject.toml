@@ -33,6 +33,7 @@ dependencies = [
 dev = [
     "black>=26.5.1",
     "isort>=9.0.1",
+    "pre-commit>=4.6.2",
     "pylint>=4.0.8",
     "pytest>=9.1.1",
 ]
@@ -60,3 +61,6 @@ disable = [
     "no-else-return",
 ]
 
+[tool.isort]
+profile = "black"
+line_length = 88

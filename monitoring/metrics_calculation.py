@@ -6,8 +6,11 @@ import joblib
 import pandas as pd
 import psycopg
 from evidently import ColumnMapping
-from evidently.metrics import (ColumnDriftMetric, DatasetDriftMetric,
-                               DatasetMissingValuesMetric)
+from evidently.metrics import (
+    ColumnDriftMetric,
+    DatasetDriftMetric,
+    DatasetMissingValuesMetric,
+)
 from evidently.report import Report
 
 SEND_TIMEOUT = 10

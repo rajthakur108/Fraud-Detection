@@ -218,19 +218,19 @@ The prediction service is packaged using Docker.
 Build image:
 
 ```bash
-docker build -t fraud-prediction-service .
+docker build -f deployment/Dockerfile -t fraud-detection-service .
 ```
 
 Run container:
 
 ```bash
-docker run -p 9696:9696 fraud-prediction-service
+docker run -it --rm -p 9696:9696 detection
 ```
 
 The API is available at:
 
 ```
-http://localhost:9696
+http://localhost:9696/predict
 ```
 
 ---
@@ -384,7 +384,7 @@ mlflow server \
 ## Run Training Pipeline
 
 ```bash
-uv run python model-building/train.py
+uv run python model-building/model_1.py
 ```
 
 ---
@@ -392,7 +392,7 @@ uv run python model-building/train.py
 ## Start Prediction API
 
 ```bash
-docker run -p 9696:9696 fraud-prediction-service
+docker run -it --rm -p 9696:9696 fraud-detection-service
 ```
 
 ---

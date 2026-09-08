@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import joblib
 import pandas as pd
 import pytest
@@ -8,7 +10,8 @@ import pytest
 # you pass the name of that fixture as argument it is called directly
 @pytest.fixture
 def model():
-    return joblib.load("./fraud_model.joblib")
+    model_path = Path(__file__).parents[2] / "deployment" / "fraud_model.joblib"
+    return joblib.load(model_path)
 
 
 @pytest.fixture
